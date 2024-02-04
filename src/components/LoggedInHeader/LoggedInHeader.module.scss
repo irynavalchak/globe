@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+.header {
+  //width: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  overflow-x: hidden;
+  background: red;
+
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 66px 104px;
+  //margin: 66px 104px;
+}
+
+.linksFindMenu,
+.linksLogMenu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  .linkFindMenu, .linkLogMenu {
+    color: $white;
+  }
+}
+
+.linksFindMenu a {
+  //color: $white;
+
+}
+
+
+
+
+

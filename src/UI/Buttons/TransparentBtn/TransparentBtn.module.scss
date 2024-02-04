@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.link {
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 15.5px 26px;
+  border: 1px solid $mint-green;
+  border-radius: 4px;
+  color: $blackish-green;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  //box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+  &:hover {
+    background: $mint-green;
+  }
+
+}

@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+@import '../../styles/font';
+
+.header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  background: transparent;
+  //overflow-x: hidden;
+
+}
+
+.headerContainer {
+  //width: 100vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @extend %montserrat-semibold;
+  //padding: 66px 104px;
+  margin: 64px 62px 0 62px;
+}
+
+.linksFindMenu,
+.linksLogMenu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  .findMenuList a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .linkFind, .linkLog {
+    color: $white;
+  }
+
+  .linkLog {
+    padding: 15.5px 26px;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: $white;
+      color: $blackish-green;
+      border: 1px solid black;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+

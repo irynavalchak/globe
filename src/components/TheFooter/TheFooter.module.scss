@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+
+.footer {
+  width: 100vw;
+  //background: $mint-green;
+  //margin-top: 50px;
+}
+
+.newsLetterBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $light-mint-green;
+  padding: 24px 24px 0 24px;
+  margin: 0 104px;
+  border-radius: 20px;
+  transform: translate(0, 50%);
+
+  h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 54px;
+    margin-bottom: 24px;
+    color: $blackish-green;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: $blackish-green;
+
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: $blackish-green;
+  }
+
+
+  //img {
+  //  margin-top: auto;
+  //
+  //}
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 218px 104px 64px 104px;
+  background: $mint-green;
+
+}
+
+.iconsBlockGeneral {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.iconsBlock {
+  display: flex;
+  gap: 12px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  color: $blackish-green;
+
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: $blackish-green;
+
+  }
+
+  a {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: $blackish-green;
+
+  }
+}
+

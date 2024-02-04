@@ -1,0 +1,17 @@
+@import "@/styles/variables";
+@import "@/styles/font";
+
+.blockBtn {
+  background: $light-mint-green;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.link {
+  font-size: 14px;
+  @extend %montserrat-medium;
+  color: $blackish-green;
+}

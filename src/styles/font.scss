@@ -1,0 +1,103 @@
+@import "variables";
+
+// inter
+%inter-bold{
+  color: #000;
+  font-family: $inter-font;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+%inter-semibold{
+  color: #000;
+  font-family: $inter-font;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+%inter-medium{
+  color: #000;
+  font-family: $inter-font;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+%inter-regular{
+  color: #000;
+  font-family: $inter-font;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+%montserrat-bold {
+  color: #000;
+  font-family: $montserrat-font;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+%montserrat-semibold {
+  color: #000;
+  font-family: $montserrat-font;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+%montserrat-medium {
+  color: #000;
+  font-family: $montserrat-font;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+%montserrat-regular {
+  color: #000;
+  font-family: $montserrat-font;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+// Assuming you have Libre Franklin font imported or included via CDN
+$libre-franklin-font: 'Libre Franklin', sans-serif;
+
+%libre-franklin-bold {
+  color: #000;
+  font-family: $libre-franklin-font;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+%libre-franklin-semibold {
+  color: #000;
+  font-family: $libre-franklin-font;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+%libre-franklin-medium {
+  color: #000;
+  font-family: $libre-franklin-font;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+%libre-franklin-regular {
+  color: #000;
+  font-family: $libre-franklin-font;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+

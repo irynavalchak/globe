@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: flex;
+  //align-items: center;
+  //justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 100px;
+}

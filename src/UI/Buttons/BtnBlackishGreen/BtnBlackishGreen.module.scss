@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.btn {
+    font-size: 14px;
+    padding: 19.5px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: $white;
+    background-color: $blackish-green;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: $blackish-green;
+        background: $white;
+    }
+
+  }
